@@ -51,11 +51,11 @@ class _LoginViewState extends State<LoginView> {
     });
   }
 
-  void toggleRemember() {
+/*   void toggleRemember() {
     setState(() {
       remember = !remember;
     });
-  }
+  } */
 
   void toggleRegister() {
     setState(() {
@@ -333,7 +333,7 @@ class _LoginViewState extends State<LoginView> {
         ));
   }
 
-  Widget _rememberSection() {
+/*   Widget _rememberSection() {
     return Container(
         margin: const EdgeInsets.only(top: 10),
         child: Row(
@@ -377,7 +377,7 @@ class _LoginViewState extends State<LoginView> {
             )
           ],
         ));
-  }
+  } */
 
   Widget _buttonLogin() {
     return Container(
